@@ -63,7 +63,7 @@ export default function Index() {
         <main className="flex max-w-xl flex-col gap-2">
           <p className="!my-0 text-base">
             Typescript, React, Remix, Tailwind, pnpm, Plausible, Prettier,
-            ESLint, Plausible, clsx, pretty-cache-header.
+            ESLint, clsx, pretty-cache-header.
           </p>
         </main>
       </div>
