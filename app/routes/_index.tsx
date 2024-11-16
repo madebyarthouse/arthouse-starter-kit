@@ -36,12 +36,18 @@ export default function Index() {
       }}
       className="flex h-screen items-center justify-center"
     >
-      <div className="prose prose-xl mx-4 h-fit max-w-fit gap-5 space-y-4 rounded-lg bg-white/80 p-10 sm:mx-auto">
+      <div className="prose mx-4 h-fit max-w-fit gap-5 space-y-4 rounded-lg bg-white/80 p-5 md:prose-xl sm:mx-auto md:p-10">
         <header>
-          <h1 className="my-2 text-7xl font-medium uppercase">
-            Arthouse <span className="text-2xl">Starter-Kit</span>
-          </h1>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-row flex-wrap items-end gap-5">
+            <h1 className="!m-0 text-4xl font-medium uppercase md:text-7xl">
+              Arthouse{" "}
+            </h1>
+            <div className="mb-1.5 inline-flex flex-col gap-0 text-lg font-medium uppercase leading-none">
+              <span>Full-Stack</span>
+              <span>Starter-Kit</span>
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center gap-2 leading-5">
             by
             <a href="https://chrcit.com?utm_source=arthouse-template">
               Christian Cito
@@ -55,12 +61,7 @@ export default function Index() {
 
         <hr className="my-4" />
         <main className="flex max-w-xl flex-col gap-2">
-          <p className="my-0">
-            <a href="https://github.com/madebyarthouse/arthouse-starter-kit">
-              View on Github
-            </a>
-          </p>
-          <p className="my-0 text-base">
+          <p className="!my-0 text-base">
             Typescript, React, Remix, Tailwind, pnpm, Plausible, Prettier,
             ESLint, Plausible, clsx, pretty-cache-header.
           </p>
