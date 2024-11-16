@@ -1,3 +1,4 @@
+import * as React from "react";
 import {
   Links,
   Meta,
@@ -10,12 +11,7 @@ import type { LinksFunction } from "@remix-run/node";
 import "./tailwind.css";
 import { config } from "./config";
 
-export const links: LinksFunction = () => [
-  {
-    rel: "manifest",
-    href: "/webmanifest.json",
-  },
-];
+export const links: LinksFunction = () => [];
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -31,7 +27,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           src="/js/script.js"
           data-domain={config.productionDomain}
         ></script>
-        <link
+        {/* <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.png"
@@ -48,12 +44,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="/site.webmanifest" />
         <link
           rel="mask-icon"
           href="/safari-pinned-tab.svg"
           color={config.themeColor}
-        />
+        /> */}
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="og:url" content={config.productionUrl} />
         <meta name="og:locale" content="de_AT" />
         <meta name="twitter:card" content="summary_large_image" />

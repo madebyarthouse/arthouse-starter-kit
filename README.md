@@ -1,6 +1,7 @@
-# Arthouse full-stack starter-kit
+# Arthouse full-stack Starter Kit
 
-Base starter-kit for full-stack Typescript+React web dev projects. Has sensible defaults, clears out boilerplate and adds minimal utilities on top.
+![Arthouse Starter Kit screenshot](./docs/screenshot.png)
+Starter Kit for full-stack Typescript+React web dev projects. Has sensible defaults, clears out boilerplate and adds minimal utilities on top.
 
 Includes a `.cursorrules` file to get you started with Cursor – adapt it to your needs/style.
 
